@@ -5,7 +5,6 @@
 // *******************************************************************
 
 import java.util.Scanner;
-import java.util.function.ToIntFunction;
 
 public class ComputingAverages
 {
@@ -33,5 +32,8 @@ public class ComputingAverages
             System.out.println("The average is: " + average);
 
         }
+
+        // The output is an integer, need to convert int1 2 and 3 to float probably to get accuracy
+
 }
 
