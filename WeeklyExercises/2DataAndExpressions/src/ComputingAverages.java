@@ -27,13 +27,12 @@ public class ComputingAverages
             System.out.println("Enter the third integer: ");
             val3 = scan.nextInt();
 
-            average = (val1 + val2 + val3) / 3;
+            average = (val1 + val2 + val3) / 3f;
+            // Turns out I just needed an f after the 3 for it to output a float.
 
             System.out.println("The average is: " + average);
 
         }
-
-        // The output is an integer, need to convert int1 2 and 3 to float probably to get accuracy
 
 }
 
