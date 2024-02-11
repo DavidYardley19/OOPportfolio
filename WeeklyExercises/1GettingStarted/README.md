@@ -36,7 +36,20 @@ Find the below to be a more accurate visualisation of the output code:\
   \***\
    \*
 
+Fail... Real-ly not a fan of markdown, but I do understand it's long term benefit.
 
+``` Diamond shape
+    *
+   ***
+  *****
+ *******
+  *****
+   ***
+    *
+```
+
+I figured it out!\
+:) Dopamine.
 
 ### Questions
 What is the latest version of Java SDK?
