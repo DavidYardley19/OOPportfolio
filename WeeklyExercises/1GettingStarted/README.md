@@ -1,5 +1,5 @@
 # Week 1 > Getting Started
-## Find the below as a list of program outputs.\
+## Find the below as a list of program outputs.
 
 ### Hello World
 Hello world

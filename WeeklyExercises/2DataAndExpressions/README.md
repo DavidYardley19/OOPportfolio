@@ -1,5 +1,5 @@
 # Week 2 > DataAndExpressions
-## Find the below as a list of program outputs.\
+## Find the below as a list of program outputs.
 
 ### TableOfStudentGrades
 ``` 
