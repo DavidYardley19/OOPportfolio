@@ -11,11 +11,11 @@
 ## Work Schedule
 **1 Getting Started**\
 **committed by 5th February**\
-1 Hello World        -- to do\
-2 Test               -- to do\
-3 Personal Details   -- to do\
-4 Diamonds           -- to do\
-5 Questions          -- to do
+1 Hello World        -- DONE
+2 Test               -- DONE
+3 Personal Details   -- DONE
+4 Diamonds           -- DONE
+5 Questions          -- DONE
 
 **2 Data and Expressions**\
 **committed by 19th February**\
