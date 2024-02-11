@@ -28,12 +28,12 @@ Due to the nature of .md files, this will be troublesome to look at.\
 Find the below to be a more accurate visualisation of the output code:\
 
 
-   \*
-  \***
- \*****
-\*******
- \*****
-  \***
+   \*\
+  \***\
+ \*****\
+\*******\
+ \*****\
+  \***\
    \*
 
 
