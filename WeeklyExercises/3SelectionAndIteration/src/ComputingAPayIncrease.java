@@ -16,6 +16,12 @@
 //   "Good" or "Poor") are input.
 // ***************************************************************
 
+/*
+Idea:
+    Use a switch statement to differenciate between "Excellent", "Good", and "Poor".
+    In reference to big-O notation, I'm unsure how effective a switch statement is in comparison to another method.
+        TODO: Once all tasks are complete, check into the java documentation to discover how the switch statement works.
+ */
 
 import java.util.Scanner;
 import java.text.NumberFormat;
