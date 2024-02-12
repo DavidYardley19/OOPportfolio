@@ -5,6 +5,7 @@ then the output would be “sihT si a elpmas .ecnetnes.”
 Note the use of multiple Scanner objects may be helpful with this program.
  */
 
+import java.util.Scanner;
 public class StringReverser
 {
 /*
@@ -17,6 +18,27 @@ Easy to understand method:
         This will assist in one way, however work the "Algorithm" out first.
             Makes me a little sick to call it an algorithm but hey ho.
  */
+
+    public static void main(String[] args)
+    {
+        StringReverser StrReverse = new StringReverser();
+        StrReverse.ConvertString();
+    }
+
+    public void ConvertString()
+    {
+        String user_input;
+        String reversed_str;
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Enter a sentance below, I will reverse it!");
+        user_input = scan.nextString();
+
+        for (int i = len(user_input); i > 0; i--) {
+            System.out.println(i);
+        }
+    }
 
 
 }
