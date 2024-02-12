@@ -33,10 +33,10 @@ Easy to understand method:
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter a sentance below, I will reverse it!");
-        user_input = scan.nextString();
+        user_input = scan.nextLine();
 
-        for (int i = len(user_input); i > 0; i--) {
-            System.out.println(i);
+        for (int i = user_input.length(); i >= 0; i--) {
+            System.out.print(user_input.charAt(i));
         }
     }
 
