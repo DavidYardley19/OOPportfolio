@@ -28,7 +28,6 @@ Easy to understand method:
     public void ConvertString()
     {
         String user_input;
-        String reversed_str;
 
         Scanner scan = new Scanner(System.in);
 
@@ -39,4 +38,8 @@ Easy to understand method:
             System.out.print(user_input.charAt(i));
         }
     }
+
+    // TODO: This is NOT done, you need to reverse each word in the string David. Not the entire string!
+    //  But !! You can use this method after splitting the string into different words in succession - This is useful!
+
 }
