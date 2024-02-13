@@ -35,10 +35,8 @@ Easy to understand method:
         System.out.println("Enter a sentance below, I will reverse it!");
         user_input = scan.nextLine();
 
-        for (int i = user_input.length(); i >= 0; i--) {
+        for (int i = user_input.length() - 1; i >= 0; i--) {
             System.out.print(user_input.charAt(i));
         }
     }
-
-
 }
