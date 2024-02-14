@@ -28,15 +28,31 @@ Easy to understand method:
     public void ConvertString()
     {
         String user_input;
+        String final_sentance = "";
 
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Enter a sentance below, I will reverse it!");
         user_input = scan.nextLine();
 
-        for (int i = user_input.length() - 1; i >= 0; i--) {
-            System.out.print(user_input.charAt(i));
+        String[] words = user_input.split("\\s+");
+        for (String word : words)
+        {
+            final_sentance = final_sentance + ConvertWord(word) + " ";
         }
+
+        System.out.println(final_sentance.substring(0, final_sentance.length() - 1));
+    }
+
+    public String ConvertWord(String user_input_word)
+    {
+        String final_word = "";
+
+        for (int i = user_input_word.length() - 1; i >= 0; i--) {
+            final_word = final_word + user_input_word.charAt(i);
+        }
+
+        return final_word;
     }
 
     // TODO: This is NOT done, you need to reverse each word in the string David. Not the entire string!
