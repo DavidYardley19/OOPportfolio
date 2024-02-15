@@ -48,7 +48,8 @@ Easy to understand method:
     {
         String final_word = "";
 
-        for (int i = user_input_word.length() - 1; i >= 0; i--) {
+        for (int i = user_input_word.length() - 1; i >= 0; i--)
+        {
             final_word = final_word + user_input_word.charAt(i);
         }
 
@@ -56,6 +57,8 @@ Easy to understand method:
     }
 
     // TODO: This is NOT done, you need to reverse each word in the string David. Not the entire string!
-    //  But !! You can use this method after splitting the string into different words in succession - This is useful!
+    //  But !! You can use this method after splitting the string into different words in succession - This is useful -
+    //      Now done :)
 
+    // todo: Find out what is meant by static > This is more advanced - for a later date
 }
