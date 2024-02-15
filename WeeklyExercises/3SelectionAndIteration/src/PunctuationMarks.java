@@ -49,11 +49,26 @@ public class PunctuationMarks
         Scanner scan = new Scanner(System.in);
         String user_input;
 
+        String[][] punctuation_array = new String[14][1];
+        // There E 14 diff punctuation chars - consider this as the rows
+        // the 1 indicates the number of columns, this will just be the count of each punctuation
+        // Since you have declared this as a string array,
+            // You will need to convert the count to a local int, increment the value then replace the prev one as a string!
+                    // This seems a little shoddy. Thbere must be a better way of doing this.
+                            // I feel it could be nice to look into nontheless.
+
         System.out.println("Please enter a sentance, I will compute how many of each punctuation there is.");
         user_input = scan.nextLine();
 
         // todo : Need to run a for loop in between the string for every character,
         //  use a switch statement to check if it is punctuation.. Then add this to an array
+
+        // Useful line:
+                //        for (int i = user_input.length() - 1; i >= 0; i--)
+                //        {
+                //            final_word = final_word + user_input.charAt(i);
+                //        }
+
 
     }
 
